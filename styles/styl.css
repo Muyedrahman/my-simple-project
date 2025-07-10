@@ -53,6 +53,8 @@ nav ul li{
     list-style: none;
 }
 
+
+
 /* banner styls */
 .banner{
     
@@ -68,4 +70,34 @@ nav ul li{
 .banner-title{
     font-weight: bold;
     font-size: 64px;
+}
+/* common style */
+.section-title{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+
+}
+.section-discription{
+    font-size: 24px;
+    color: #252432;
+}
+
+
+/* SECTION 1 */
+.action{
+    display: flex;
+    justify-content: space-between;
+    width: 1140px;
+    height: 328px;
+    margin: 0  35px 0 200px;
+    padding: 141  814;
+    
+}
+.action-images{
+    width: 403px;
+    opacity: 100%;
+   column-rule: 48;
+   border-radius:48px;
+
 }
