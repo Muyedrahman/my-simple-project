@@ -189,7 +189,7 @@ nav ul li{
     display: flex;
 }
 .card{
-   
+    box-shadow: #000000;
     background-color: #FFFFFF;
     gap: 20px;
     
@@ -231,4 +231,18 @@ section input[type="text"], section input[type="email"], section textarea{
    width: 100%;
    padding:  32px 20px ;
    
+}
+/* footer section */
+footer{
+    display: flex;
+}
+footer ul {
+    display: flex;
+    gap: 48px;
+}
+footer ul li{
+    list-style: none;
+}
+footer li a{
+    text-decoration: none;
 }
