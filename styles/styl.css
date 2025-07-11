@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-   background-color: #f5f8ff;
+  
     box-sizing: border-box;
 
 }
@@ -52,8 +52,13 @@
    font-weight: bold;
    color:#FFFFFF ;
    padding:12px 36px ;
+   border: none;
    border-radius: 5px;
 
+}
+.btn:hover{
+    background-color: #3b36d1;
+  cursor: pointer;
 }
 .regular{
     font-size: 20px;
@@ -189,7 +194,7 @@ nav ul li{
     display: flex;
 }
 .card{
-    box-shadow: #000000;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
     background-color: #FFFFFF;
     gap: 20px;
     
@@ -234,7 +239,14 @@ section input[type="text"], section input[type="email"], section textarea{
 }
 /* footer section */
 footer{
+   
     display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 200px;
+    
+    text-align: center;
+
 }
 footer ul {
     display: flex;
