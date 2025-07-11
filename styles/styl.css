@@ -24,6 +24,11 @@
     "wdth" 100;
 }
 /* share style Primary Coller */
+
+.dark-3{
+    color: #000000;
+}
+
 .secondery-bg{
    background-color: rgba(78, 71, 255, 0.1);
     width: 1140px;
@@ -54,6 +59,10 @@
     font-size: 20px;
    color: rgba(0, 0, 0, 0.5) ; 
 
+}
+.regular-2{
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0.5) ;
 }
 
 /* Nave styls */
@@ -91,6 +100,16 @@ nav ul li{
     font-size: 64px;
 }
 /* common style */
+.stars{
+    font-size: 30px;
+    color:#FFB805 ;
+}
+.text-center{
+    text-align: center;
+    
+}
+
+
 .section-title{
     
     font-size: 42px;
@@ -107,7 +126,7 @@ nav ul li{
 }
 
 
-/* SECTION 1 */
+/* SECTION  */
 .action{
     display: flex;
     justify-content: space-between;
@@ -137,7 +156,7 @@ nav ul li{
     color: #4E47FF;
 }
 .title{
-    text-align: center;
+    
     font-size: 42px;
     font-weight: bold;
     color: #252432;
@@ -145,4 +164,17 @@ nav ul li{
 }
 .productive-user{
     margin: 116px 159px 137px 141px;
+}
+/* section */
+.users-card{
+    display: flex;
+    border-radius: 14px;
+    justify-content: space-around;
+
+}
+.users-say{
+ width: 1140px;
+    height: 306px;
+   gap: 50px;
+
 }
