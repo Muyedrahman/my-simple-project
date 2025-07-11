@@ -171,6 +171,7 @@ nav ul li{
      justify-content: center;
      gap: 20px;
     border-radius: 14px;
+    margin-top: ;
 
    
 
@@ -194,3 +195,19 @@ nav ul li{
     
 }
 
+/* section-colum-styl */
+.total-section{
+    display: flex;
+    width: 1440px;
+    gap: 10px;
+    padding: 40px;
+    justify-content: center;
+}
+.section-colum{
+   
+}
+
+.section-colum-title{
+   
+    padding: 130px 230px;
+}
