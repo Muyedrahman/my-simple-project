@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    color: #F5F8FF;
+   background-color: #F5F8FF;
     box-sizing: border-box;
 
 }
@@ -167,14 +167,30 @@ nav ul li{
 }
 /* section */
 .users-card{
-    display: flex;
+     display: flex;
+     justify-content: center;
+     gap: 20px;
     border-radius: 14px;
-    justify-content: space-around;
+
+   
 
 }
 .users-say{
- width: 1140px;
-    height: 306px;
-   gap: 50px;
+    
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 40px 20px ;
+    text-align: center;
+    gap: 50px;
 
 }
+. card-title{
+    display: flex;
+}
+.card{
+   
+    background-color: #FFFFFF;
+    gap: 20px;
+    
+}
+
