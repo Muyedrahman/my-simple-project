@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-   background-color: #F5F8FF;
+   background-color: #f5f8ff;
     box-sizing: border-box;
 
 }
@@ -185,7 +185,7 @@ nav ul li{
     gap: 50px;
 
 }
-. card-title{
+.card-title{
     display: flex;
 }
 .card{
@@ -208,6 +208,27 @@ nav ul li{
 }
 
 .section-colum-title{
-   
+     color: rgba(0, 0, 0, 1);
+    font-weight: bold;
+    font-size: 64px;
+    
     padding: 130px 230px;
+}
+section input[type="text"], section input[type="email"], section textarea{
+    height: 70px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    display: block;
+    width: 100%;
+    padding:  32px 20px ;
+    margin-bottom: 20px;
+}
+.btn{
+     height: 70px;
+     background-color: #4E47FF;
+    border-radius: 10px;
+   display: block;
+   width: 100%;
+   padding:  32px 20px ;
+   
 }
